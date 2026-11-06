@@ -5,7 +5,7 @@ function calcularTotal() {
     const pequena = parseInt(document.getElementById('pequena').value) || 0;
 
     // Precios
-    const total = (grande * 5300) + (mediana * 3300) + (pequena * 3800);
+    const total = (grande * 5500) + (mediana * 3500) + (pequena * 4000);
 
     // Formateamos con separador de miles
     const totalFormateado = total.toLocaleString('es-CO');
